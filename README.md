@@ -23,3 +23,25 @@ pip install -r requirements.txt
 
 # Launch Jupyter
 jupyter notebook
+
+## 🚀 Key Features
+
+- **Data Preprocessing**:
+  - Label encoding for categorical features (e.g., `Sentiment`)
+  - TF-IDF vectorization for textual data
+  - Handling class imbalance using **SMOTE** (Synthetic Minority Over-sampling Technique)
+
+- **Machine Learning Models Evaluated**:
+  - Logistic Regression (**65.16% accuracy**)
+  - Decision Tree Classifier
+  - Random Forest Classifier
+  - Support Vector Machine (SVM)
+  - Bernoulli Naive Bayes
+  - K-Nearest Neighbors (KNN)
+
+- **Model Evaluation Techniques**:
+  - Accuracy score
+  - Confusion matrix
+  - Classification report
+  - Cross-validation
+  - Hyperparameter tuning using GridSearchCV
